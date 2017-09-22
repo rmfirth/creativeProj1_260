@@ -16,13 +16,20 @@ main, section, aside {
     display: inline-block;
     box-sizing: border-box;
     float: left;
+    padding-left:3%;
+    padding-right:3%;
+}
+
+#quiz{
+padding-top:2%;
+
 }
 
 main, aside {
     box-shadow: 0 0 10px #333333;
 }
 header {
-    background-color: white;
+    background-color: #99ff99;
     text-align: center;
 }
 header p {
