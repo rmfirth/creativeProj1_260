@@ -3,8 +3,13 @@ main, section, aside, header, footer, body, html, h1, h2, h3, h4, h5 {
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-color: #4ed9a0;
+    min-height: 100%;
 }
 
 main, section, aside {
@@ -13,6 +18,9 @@ main, section, aside {
     float: left;
 }
 
+main, aside {
+    box-shadow: 0 0 10px #333333;
+}
 header {
     background-color: white;
     text-align: center;
@@ -38,6 +46,7 @@ main {
     width: 70%;
     background-color: white;
     margin: 2%;
+    padding: 2%;
 }
 
 aside {
@@ -45,6 +54,7 @@ aside {
     padding: 2%;
     background-color: white;
     margin: 2%;
+    height: 100%;
 }
 
 aside cite {
