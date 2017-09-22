@@ -66,3 +66,9 @@ aside cite {
 main ol {
     list-style: upper-alpha;
 }
+
+
+footer {
+    height: 100px;
+
+}
